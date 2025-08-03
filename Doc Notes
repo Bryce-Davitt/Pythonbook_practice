@@ -1,0 +1,55 @@
+📊 Core Data & Math Tools
+NumPy – Fast numerical computing, arrays, vectorization (essential for speed).
+
+Pandas – Powerful data structures (Series, DataFrames) for time series and structured data.
+
+SciPy – Statistical functions, optimizers, interpolation, signal processing.
+
+📈 Finance & Trading Specific
+yfinance – Easy access to Yahoo Finance data (great for prototyping).
+
+pandas-datareader – Pulls in financial data from various sources (FRED, IEX, etc).
+
+QuantLib – Heavy-duty quantitative finance library (fixed income, options, term structures).
+
+bt – Flexible backtesting library for strategy development.
+
+zipline – Algorithmic trading backtester (used by Quantopian; slower but more structured).
+
+ffn – For performance metrics, tear sheets, and portfolio analytics.
+
+🧠 Machine Learning & Stats
+scikit-learn – Standard ML library: regressions, trees, clustering, preprocessing.
+
+XGBoost / LightGBM – Gradient boosting models for performance-critical ML tasks.
+
+statsmodels – Regression models, time series models (ARIMA, GARCH), hypothesis testing.
+
+⏱️ Time Series / Signal Processing
+arch – Advanced time series modeling: ARCH, GARCH, volatility modeling.
+
+tslearn / darts – More specialized time series ML tools.
+
+TA-Lib / ta – Technical analysis indicators like RSI, MACD, Bollinger Bands.
+
+🧮 Optimization & Math
+cvxpy – Convex optimization (great for portfolio allocation, risk parity, etc.).
+
+PyPortfolioOpt – Portfolio optimization toolkit (mean-variance, Black-Litterman).
+
+sympy – Symbolic math (good for derivations or working with analytical models).
+
+🧾 Misc / Productivity
+Jupyter – For writing notebooks and sharing research.
+
+matplotlib / seaborn / plotly – For plotting, charting, and interactive visualization.
+
+joblib / multiprocessing / numba – Speedups via parallelism and JIT compilation.
+
+Optional but Nice:
+alphalens – For analyzing alpha factors (designed for Quantopian).
+
+backtrader – Another solid backtesting library (more OOP, good community).
+
+PyTorch / TensorFlow – Deep learning, useful for NLP or reinforcement learning strategies.
+
