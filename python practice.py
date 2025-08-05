@@ -1,4 +1,4 @@
-
+# Bryce Davitt qqn2ya
 s ="{: >5d} times {: >5.2f} is {: >5.2f}"
 print ( s. format ( 1, 3.75 , 1 * 3.75 ) )
 print ( s. format ( 2, 3.75 , 2 * 3.75 ) )
@@ -114,3 +114,45 @@ def changeFruit ():
 print ( fruit )
 changeFruit ()
 print ( fruit )
+
+def factorial ( n ):
+    if n <= 1:
+        return 1
+    return n * factorial ( n -1 )
+print ( factorial ( 5 ) )
+
+t1 = (" apple "," banana ",
+" cherry ")
+print ( " banana " in t1 )
+print ( " orange " in t1 )
+
+fruitlist = [" apple "," banana "]
+newfruitlist = fruitlist
+print ( id( fruitlist ) )
+print ( id( newfruitlist ) )
+
+fruitlist = [" apple "," banana "]
+newfruitlist = fruitlist
+verynewfruitlist = fruitlist [:]
+print ( fruitlist is newfruitlist )
+print ( fruitlist is verynewfruitlist )
+print ( newfruitlist is verynewfruitlist )
+
+from copy import deepcopy
+numlist = [ 1, 2, [3, 4] ]
+copylist = deepcopy ( numlist )
+numlist [0] = 5
+numlist [2][0] = 6
+print ( numlist )
+print ( copylist )
+
+
+sl = [ x * x for x in range ( 1, 26 ) ]
+print(sl)
+sl = [ x * x for x in range ( 1, 26 ) if x%10 != 5]
+print(sl)
+
+fruitbasket = { " apple ":3, " banana ":5, " cherry ":50 }
+print ( list ( fruitbasket . keys () ) )
+print ( list ( fruitbasket . values () ) )
+print ( list ( fruitbasket . items () ) )
