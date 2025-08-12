@@ -5,7 +5,7 @@ Pandas – Powerful data structures (Series, DataFrames) for time series and str
 
 SciPy – Statistical functions, optimizers, interpolation, signal processing.
 
- Finance & Trading Specific
+Finance & Trading Specific
 yfinance – Easy access to Yahoo Finance data (great for prototyping).
 
 pandas-datareader – Pulls in financial data from various sources (FRED, IEX, etc).
